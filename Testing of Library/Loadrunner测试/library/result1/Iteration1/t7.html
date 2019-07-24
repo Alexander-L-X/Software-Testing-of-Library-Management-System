@@ -1,0 +1,404 @@
+
+
+
+<html>
+<head>
+    <title>全部图书信息</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/bootstrap.min.js" ></script>
+    <style>
+        body{
+            background-color: rgb(240,242,245);
+        }
+    </style>
+</head>
+<body>
+
+<nav  style="position:fixed;z-index: 999;width: 100%;background-color: #fff" class="navbar navbar-default" role="navigation" >
+    <div class="container-fluid">
+        <div class="navbar-header" style="margin-left: 8%;margin-right: 1%">
+            <a class="navbar-brand" href="admin_main.html">图书管理系统</a>
+        </div>
+        <div class="collapse navbar-collapse" >
+            <ul class="nav navbar-nav navbar-left">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        图书管理
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="allbooks.html">全部图书</a></li>
+                        <li class="divider"></li>
+                        <li><a href="book_add.html">增加图书</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        读者管理
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="allreaders.html">全部读者</a></li>
+                        <li class="divider"></li>
+                        <li><a href="reader_add.html">增加读者</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        借还管理
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="lendlist.html">借还日志</a></li>
+                    </ul>
+                </li>
+                <li >
+                    <a href="admin_repasswd.html" >
+                        密码修改
+                    </a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="login.html"><span class="glyphicon glyphicon-user"></span>&nbsp;20170001，已登录</a></li>
+                <li><a href="logout.html"><span class="glyphicon glyphicon-log-in"></span>&nbsp;退出</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div style="padding: 70px 550px 10px">
+    <form   method="post" action="querybook.html" class="form-inline"  id="searchform">
+        <div class="input-group">
+           <input type="text" placeholder="输入图书名" class="form-control" id="search" name="searchWord" class="form-control">
+            <span class="input-group-btn">
+                            <input type="submit" value="搜索" class="btn btn-default">
+            </span>
+        </div>
+    </form>
+    <script>
+        function mySubmit(flag){
+            return flag;
+        }
+        $("#searchform").submit(function () {
+            var val=$("#search").val();
+            if(val==''){
+                alert("请输入关键字");
+                return mySubmit(false);
+            }
+        })
+    </script>
+</div>
+<div style="position: relative;top: 10%">
+
+    <div class="alert alert-success alert-dismissable">
+        <button type="button" class="close" data-dismiss="alert"
+                aria-hidden="true">
+            &times;
+        </button>
+        图书添加成功！
+    </div>
+
+
+</div>
+<div class="panel panel-default" style="width: 90%;margin-left: 5%">
+    <div class="panel-heading" style="background-color: #fff">
+        <h3 class="panel-title">
+            全部图书
+        </h3>
+    </div>
+    <div class="panel-body">
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th>书名</th>
+                <th>作者</th>
+                <th>出版社</th>
+                <th>ISBN</th>
+                <th>价格</th>
+                <th>借还</th>
+                <th>详情</th>
+                <th>编辑</th>
+                <th>删除</th>
+            </tr>
+            </thead>
+            <tbody>
+            
+            <tr>
+                <td>大雪中的山庄</td>
+                <td>东野圭吾 </td>
+                <td>北京十月文艺出版社</td>
+                <td>9787530216835</td>
+                <td>35.00</td>
+                
+                    <td><a href="lendbook.html?bookId=10000001"><button type="button" class="btn btn-primary btn-xs">借阅</button></a></td>
+                
+                
+                <td><a href="bookdetail.html?bookId=10000001"><button type="button" class="btn btn-success btn-xs">详情</button></a></td>
+                <td><a href="updatebook.html?bookId=10000001"><button type="button" class="btn btn-info btn-xs">编辑</button></a></td>
+                <td><a href="deletebook.html?bookId=10000001"><button type="button" class="btn btn-danger btn-xs">删除</button></a></td>
+            </tr>
+            
+            <tr>
+                <td>三生三世 十里桃花</td>
+                <td>唐七公子 </td>
+                <td>沈阳出版社</td>
+                <td>9787544138000</td>
+                <td>26.80</td>
+                
+                    <td><a href="lendbook.html?bookId=10000003"><button type="button" class="btn btn-primary btn-xs">借阅</button></a></td>
+                
+                
+                <td><a href="bookdetail.html?bookId=10000003"><button type="button" class="btn btn-success btn-xs">详情</button></a></td>
+                <td><a href="updatebook.html?bookId=10000003"><button type="button" class="btn btn-info btn-xs">编辑</button></a></td>
+                <td><a href="deletebook.html?bookId=10000003"><button type="button" class="btn btn-danger btn-xs">删除</button></a></td>
+            </tr>
+            
+            <tr>
+                <td>何以笙箫默</td>
+                <td>顾漫 </td>
+                <td>朝华出版社</td>
+                <td>9787505414709</td>
+                <td>15.00</td>
+                
+                    <td><a href="lendbook.html?bookId=10000004"><button type="button" class="btn btn-primary btn-xs">借阅</button></a></td>
+                
+                
+                <td><a href="bookdetail.html?bookId=10000004"><button type="button" class="btn btn-success btn-xs">详情</button></a></td>
+                <td><a href="updatebook.html?bookId=10000004"><button type="button" class="btn btn-info btn-xs">编辑</button></a></td>
+                <td><a href="deletebook.html?bookId=10000004"><button type="button" class="btn btn-danger btn-xs">删除</button></a></td>
+            </tr>
+            
+            <tr>
+                <td>11处特工皇妃</td>
+                <td>潇湘冬儿</td>
+                <td>江苏文艺出版社</td>
+                <td>9787539943893</td>
+                <td>74.80</td>
+                
+                    <td><a href="lendbook.html?bookId=10000005"><button type="button" class="btn btn-primary btn-xs">借阅</button></a></td>
+                
+                
+                <td><a href="bookdetail.html?bookId=10000005"><button type="button" class="btn btn-success btn-xs">详情</button></a></td>
+                <td><a href="updatebook.html?bookId=10000005"><button type="button" class="btn btn-info btn-xs">编辑</button></a></td>
+                <td><a href="deletebook.html?bookId=10000005"><button type="button" class="btn btn-danger btn-xs">删除</button></a></td>
+            </tr>
+            
+            <tr>
+                <td>人类简史</td>
+                <td>[以色列] 尤瓦尔·赫拉利 </td>
+                <td>中信出版社</td>
+                <td>9787508647357</td>
+                <td>68.00</td>
+                
+                    <td><a href="lendbook.html?bookId=10000006"><button type="button" class="btn btn-primary btn-xs">借阅</button></a></td>
+                
+                
+                <td><a href="bookdetail.html?bookId=10000006"><button type="button" class="btn btn-success btn-xs">详情</button></a></td>
+                <td><a href="updatebook.html?bookId=10000006"><button type="button" class="btn btn-info btn-xs">编辑</button></a></td>
+                <td><a href="deletebook.html?bookId=10000006"><button type="button" class="btn btn-danger btn-xs">删除</button></a></td>
+            </tr>
+            
+            <tr>
+                <td>明朝那些事儿（1-9）</td>
+                <td>当年明月 </td>
+                <td>中国海关出版社</td>
+                <td>9787801656087</td>
+                <td>358.20</td>
+                
+                    <td><a href="lendbook.html?bookId=10000007"><button type="button" class="btn btn-primary btn-xs">借阅</button></a></td>
+                
+                
+                <td><a href="bookdetail.html?bookId=10000007"><button type="button" class="btn btn-success btn-xs">详情</button></a></td>
+                <td><a href="updatebook.html?bookId=10000007"><button type="button" class="btn btn-info btn-xs">编辑</button></a></td>
+                <td><a href="deletebook.html?bookId=10000007"><button type="button" class="btn btn-danger btn-xs">删除</button></a></td>
+            </tr>
+            
+            <tr>
+                <td>经济学原理（上下）</td>
+                <td>[美] 曼昆 </td>
+                <td>机械工业出版社</td>
+                <td>9787111126768</td>
+                <td>88.00</td>
+                
+                    <td><a href="lendbook.html?bookId=10000010"><button type="button" class="btn btn-primary btn-xs">借阅</button></a></td>
+                
+                
+                <td><a href="bookdetail.html?bookId=10000010"><button type="button" class="btn btn-success btn-xs">详情</button></a></td>
+                <td><a href="updatebook.html?bookId=10000010"><button type="button" class="btn btn-info btn-xs">编辑</button></a></td>
+                <td><a href="deletebook.html?bookId=10000010"><button type="button" class="btn btn-danger btn-xs">删除</button></a></td>
+            </tr>
+            
+            <tr>
+                <td>方向</td>
+                <td>马克-安托万·马修 </td>
+                <td>后浪丨北京联合出版公司</td>
+                <td>9787020125265</td>
+                <td>99.80</td>
+                
+                    <td><a href="lendbook.html?bookId=50000004"><button type="button" class="btn btn-primary btn-xs">借阅</button></a></td>
+                
+                
+                <td><a href="bookdetail.html?bookId=50000004"><button type="button" class="btn btn-success btn-xs">详情</button></a></td>
+                <td><a href="updatebook.html?bookId=50000004"><button type="button" class="btn btn-info btn-xs">编辑</button></a></td>
+                <td><a href="deletebook.html?bookId=50000004"><button type="button" class="btn btn-danger btn-xs">删除</button></a></td>
+            </tr>
+            
+            <tr>
+                <td>画的秘密</td>
+                <td>马克-安托万·马修 </td>
+                <td>北京联合出版公司·后浪出版公司</td>
+                <td>9787550265608</td>
+                <td>60.00</td>
+                
+                    <td><a href="lendbook.html?bookId=50000005"><button type="button" class="btn btn-primary btn-xs">借阅</button></a></td>
+                
+                
+                <td><a href="bookdetail.html?bookId=50000005"><button type="button" class="btn btn-success btn-xs">详情</button></a></td>
+                <td><a href="updatebook.html?bookId=50000005"><button type="button" class="btn btn-info btn-xs">编辑</button></a></td>
+                <td><a href="deletebook.html?bookId=50000005"><button type="button" class="btn btn-danger btn-xs">删除</button></a></td>
+            </tr>
+            
+            <tr>
+                <td>造彩虹的人</td>
+                <td>东野圭吾 </td>
+                <td>北京十月文艺出版社</td>
+                <td>9787530216859</td>
+                <td>39.50</td>
+                
+                    <td><a href="lendbook.html?bookId=50000007"><button type="button" class="btn btn-primary btn-xs">借阅</button></a></td>
+                
+                
+                <td><a href="bookdetail.html?bookId=50000007"><button type="button" class="btn btn-success btn-xs">详情</button></a></td>
+                <td><a href="updatebook.html?bookId=50000007"><button type="button" class="btn btn-info btn-xs">编辑</button></a></td>
+                <td><a href="deletebook.html?bookId=50000007"><button type="button" class="btn btn-danger btn-xs">删除</button></a></td>
+            </tr>
+            
+            <tr>
+                <td>控方证人</td>
+                <td>阿加莎·克里斯蒂 </td>
+                <td>新星出版社</td>
+                <td>9787513325745</td>
+                <td>35.00</td>
+                
+                    <td><a href="lendbook.html?bookId=50000008"><button type="button" class="btn btn-primary btn-xs">借阅</button></a></td>
+                
+                
+                <td><a href="bookdetail.html?bookId=50000008"><button type="button" class="btn btn-success btn-xs">详情</button></a></td>
+                <td><a href="updatebook.html?bookId=50000008"><button type="button" class="btn btn-info btn-xs">编辑</button></a></td>
+                <td><a href="deletebook.html?bookId=50000008"><button type="button" class="btn btn-danger btn-xs">删除</button></a></td>
+            </tr>
+            
+            <tr>
+                <td>少有人走的路</td>
+                <td>M·斯科特·派克 </td>
+                <td>吉林文史出版社</td>
+                <td>9787807023777</td>
+                <td>26.00</td>
+                
+                    <td><a href="lendbook.html?bookId=50000009"><button type="button" class="btn btn-primary btn-xs">借阅</button></a></td>
+                
+                
+                <td><a href="bookdetail.html?bookId=50000009"><button type="button" class="btn btn-success btn-xs">详情</button></a></td>
+                <td><a href="updatebook.html?bookId=50000009"><button type="button" class="btn btn-info btn-xs">编辑</button></a></td>
+                <td><a href="deletebook.html?bookId=50000009"><button type="button" class="btn btn-danger btn-xs">删除</button></a></td>
+            </tr>
+            
+            <tr>
+                <td>追寻生命的意义</td>
+                <td>[奥] 维克多·弗兰克 </td>
+                <td>新华出版社</td>
+                <td>9787501162734</td>
+                <td>12.00</td>
+                
+                    <td><a href="lendbook.html?bookId=50000010"><button type="button" class="btn btn-primary btn-xs">借阅</button></a></td>
+                
+                
+                <td><a href="bookdetail.html?bookId=50000010"><button type="button" class="btn btn-success btn-xs">详情</button></a></td>
+                <td><a href="updatebook.html?bookId=50000010"><button type="button" class="btn btn-info btn-xs">编辑</button></a></td>
+                <td><a href="deletebook.html?bookId=50000010"><button type="button" class="btn btn-danger btn-xs">删除</button></a></td>
+            </tr>
+            
+            <tr>
+                <td>秘密花园</td>
+                <td>乔汉娜·贝斯福 </td>
+                <td>北京联合出版公司</td>
+                <td>9787550252585</td>
+                <td>42.00</td>
+                
+                
+                    <td><a href="returnbook.html?bookId=50000011"><button type="button" class="btn btn-primary btn-xs">归还</button></a></td>
+                
+                <td><a href="bookdetail.html?bookId=50000011"><button type="button" class="btn btn-success btn-xs">详情</button></a></td>
+                <td><a href="updatebook.html?bookId=50000011"><button type="button" class="btn btn-info btn-xs">编辑</button></a></td>
+                <td><a href="deletebook.html?bookId=50000011"><button type="button" class="btn btn-danger btn-xs">删除</button></a></td>
+            </tr>
+            
+            <tr>
+                <td>12</td>
+                <td>12</td>
+                <td>12</td>
+                <td>12</td>
+                <td>12.00</td>
+                
+                    <td><a href="lendbook.html?bookId=50009803"><button type="button" class="btn btn-primary btn-xs">借阅</button></a></td>
+                
+                
+                <td><a href="bookdetail.html?bookId=50009803"><button type="button" class="btn btn-success btn-xs">详情</button></a></td>
+                <td><a href="updatebook.html?bookId=50009803"><button type="button" class="btn btn-info btn-xs">编辑</button></a></td>
+                <td><a href="deletebook.html?bookId=50009803"><button type="button" class="btn btn-danger btn-xs">删除</button></a></td>
+            </tr>
+            
+            <tr>
+                <td>12</td>
+                <td>12</td>
+                <td>12</td>
+                <td>12</td>
+                <td>12.00</td>
+                
+                    <td><a href="lendbook.html?bookId=50009804"><button type="button" class="btn btn-primary btn-xs">借阅</button></a></td>
+                
+                
+                <td><a href="bookdetail.html?bookId=50009804"><button type="button" class="btn btn-success btn-xs">详情</button></a></td>
+                <td><a href="updatebook.html?bookId=50009804"><button type="button" class="btn btn-info btn-xs">编辑</button></a></td>
+                <td><a href="deletebook.html?bookId=50009804"><button type="button" class="btn btn-danger btn-xs">删除</button></a></td>
+            </tr>
+            
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1.00</td>
+                
+                    <td><a href="lendbook.html?bookId=50009805"><button type="button" class="btn btn-primary btn-xs">借阅</button></a></td>
+                
+                
+                <td><a href="bookdetail.html?bookId=50009805"><button type="button" class="btn btn-success btn-xs">详情</button></a></td>
+                <td><a href="updatebook.html?bookId=50009805"><button type="button" class="btn btn-info btn-xs">编辑</button></a></td>
+                <td><a href="deletebook.html?bookId=50009805"><button type="button" class="btn btn-danger btn-xs">删除</button></a></td>
+            </tr>
+            
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1.00</td>
+                
+                    <td><a href="lendbook.html?bookId=50009806"><button type="button" class="btn btn-primary btn-xs">借阅</button></a></td>
+                
+                
+                <td><a href="bookdetail.html?bookId=50009806"><button type="button" class="btn btn-success btn-xs">详情</button></a></td>
+                <td><a href="updatebook.html?bookId=50009806"><button type="button" class="btn btn-info btn-xs">编辑</button></a></td>
+                <td><a href="deletebook.html?bookId=50009806"><button type="button" class="btn btn-danger btn-xs">删除</button></a></td>
+            </tr>
+            
+            </tbody>
+        </table>
+    </div>
+</div>
+
+</body>
+</html>

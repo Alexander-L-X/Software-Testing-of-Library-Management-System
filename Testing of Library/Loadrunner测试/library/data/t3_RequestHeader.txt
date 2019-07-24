@@ -1,0 +1,15 @@
+POST /api/loginCheck HTTP/1.1
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+Referer: http://localhost:8080/
+Accept-Language: zh-Hans-CN,zh-Hans;q=0.5
+UA-CPU: AMD64
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+Host: localhost:8080
+Content-Length: 25
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: Idea-31757f28=f3615b8e-e2a2-43d0-a7e3-da86b7744875; JSESSIONID=node01pn2rdy5337hy14jp82i2o97hw973.node0
+

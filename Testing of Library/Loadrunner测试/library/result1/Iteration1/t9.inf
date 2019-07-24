@@ -1,0 +1,27 @@
+[t9]
+FileName2=t4_7_281289-106.jpe
+FileName5=t1_4_296494-106.jpe
+FileName4=t1_5_82839-106.jpe
+FileName7=t1_2_bootstrap.css
+FileName6=t1_3_bootstrap.UNK
+FileName9=t1_0_105905-106.jpe
+FileName8=t1_1_jquery-3.UNK
+RequestBodyFile=t9_RequestBody.txt
+ContentType=text/html
+URL1=http://localhost:8080/admin_main.html
+URL2=http://localhost:8080/img/281289-106.jpg
+URL3=http://localhost:8080/js/js.cookie.js
+ResponseHeaderFile=t9_ResponseHeader.txt
+URL4=http://localhost:8080/img/82839-106.jpg
+URL5=http://localhost:8080/img/296494-106.jpg
+URL6=http://localhost:8080/js/bootstrap.min.js
+URL7=http://localhost:8080/css/bootstrap.min.css
+URL8=http://localhost:8080/js/jquery-3.2.1.js
+URL9=http://localhost:8080/img/105905-106.jpg
+SnapshotXmlFile=snapshot_9.xml
+RequestHeaderFile=t9_RequestHeader.txt
+SaveSnapshotResources=1
+Total=9
+StepName=Link: 图书管理系统
+FileName1=t9.html
+FileName3=t1_6_js.UNK

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\dream\Documents\VuGen\Scripts\library
+-ID:\LoadRunner\include
+-ec:\users\dream\documents\vugen\scripts\library\\logfile.log
+c:\users\dream\documents\vugen\scripts\library\\combined_library.c
+c:\users\dream\documents\vugen\scripts\library\\pre_cci.c

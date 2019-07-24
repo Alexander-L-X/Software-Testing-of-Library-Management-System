@@ -1,0 +1,10 @@
+ mvn clean compile
+
+ mvn clean package
+
+ mvn clean install
+
+ mvn jetty:run
+
+运行命令之前要先安装好maven和jetty
+

@@ -1,0 +1,13 @@
+[t4]
+FileName1=t4.htm
+URL1=http://localhost:8080/admin_main.html
+Total=2
+RequestHeaderFile=t4_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t4_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_4.xml
+FileName2=t4_281289-106.jpg
+URL2=http://localhost:8080/img/281289-106.jpg
+[ProtocolInfo]
+ProtocolId=QTWeb

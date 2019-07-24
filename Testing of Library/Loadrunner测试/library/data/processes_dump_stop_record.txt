@@ -1,0 +1,295 @@
+Failed to get information of process Id: 0
+Failed to get information of process Id: 4
+Failed to get information of process Id: 104
+Failed to get information of process Id: 376
+Failed to get information of process Id: 580
+Failed to get information of process Id: 680
+Failed to get information of process Id: 692
+Failed to get information of process Id: 752
+Failed to get information of process Id: 772
+Failed to get information of process Id: 888
+Failed to get information of process Id: 908
+Failed to get information of process Id: 916
+Failed to get information of process Id: 992
+Failed to get information of process Id: 68
+Failed to get information of process Id: 520
+Failed to get information of process Id: 940
+Failed to get information of process Id: 1064
+Failed to get information of process Id: 1212
+Failed to get information of process Id: 1228
+Failed to get information of process Id: 1236
+Failed to get information of process Id: 1244
+Failed to get information of process Id: 1380
+Failed to get information of process Id: 1416
+Failed to get information of process Id: 1432
+Failed to get information of process Id: 1472
+Failed to get information of process Id: 1524
+Failed to get information of process Id: 1664
+Failed to get information of process Id: 1708
+Failed to get information of process Id: 1756
+Failed to get information of process Id: 1856
+Failed to get information of process Id: 1864
+Failed to get information of process Id: 1908
+Failed to get information of process Id: 1952
+Failed to get information of process Id: 2012
+Failed to get information of process Id: 1872
+Failed to get information of process Id: 2084
+Failed to get information of process Id: 2132
+Failed to get information of process Id: 2140
+Failed to get information of process Id: 2160
+Failed to get information of process Id: 2224
+Failed to get information of process Id: 2268
+Failed to get information of process Id: 2300
+Failed to get information of process Id: 2308
+Failed to get information of process Id: 2436
+Failed to get information of process Id: 2472
+Failed to get information of process Id: 2516
+Failed to get information of process Id: 2624
+Failed to get information of process Id: 2708
+Failed to get information of process Id: 2956
+Failed to get information of process Id: 2964
+Failed to get information of process Id: 3080
+Failed to get information of process Id: 3124
+Failed to get information of process Id: 3148
+Failed to get information of process Id: 3232
+Failed to get information of process Id: 3280
+Failed to get information of process Id: 3292
+Failed to get information of process Id: 3336
+Failed to get information of process Id: 3528
+Failed to get information of process Id: 3556
+Failed to get information of process Id: 3680
+Failed to get information of process Id: 3740
+Failed to get information of process Id: 3844
+Failed to get information of process Id: 3916
+Failed to get information of process Id: 3932
+Failed to get information of process Id: 4092
+Failed to get information of process Id: 4336
+Failed to get information of process Id: 4364
+Failed to get information of process Id: 4372
+Failed to get information of process Id: 4380
+Failed to get information of process Id: 4388
+Failed to get information of process Id: 4396
+Failed to get information of process Id: 4432
+Failed to get information of process Id: 4460
+Failed to get information of process Id: 4492
+Failed to get information of process Id: 4556
+Failed to get information of process Id: 4584
+Failed to get information of process Id: 4596
+Failed to get information of process Id: 4608
+Failed to get information of process Id: 4636
+Failed to get information of process Id: 4664
+Failed to get information of process Id: 4724
+Failed to get information of process Id: 4740
+Failed to get information of process Id: 4748
+Failed to get information of process Id: 4756
+Failed to get information of process Id: 4820
+Failed to get information of process Id: 4868
+Failed to get information of process Id: 4924
+Failed to get information of process Id: 4948
+Failed to get information of process Id: 4968
+Failed to get information of process Id: 5024
+Failed to get information of process Id: 5032
+Failed to get information of process Id: 5068
+Failed to get information of process Id: 5076
+Failed to get information of process Id: 5104
+Failed to get information of process Id: 5112
+Failed to get information of process Id: 3332
+Failed to get information of process Id: 4672
+Failed to get information of process Id: 5124
+Failed to get information of process Id: 5144
+Failed to get information of process Id: 5208
+Failed to get information of process Id: 5268
+Failed to get information of process Id: 5660
+Failed to get information of process Id: 5756
+Failed to get information of process Id: 5788
+Failed to get information of process Id: 6088
+Failed to get information of process Id: 5000
+Failed to get information of process Id: 6156
+Failed to get information of process Id: 6312
+Failed to get information of process Id: 6336
+Failed to get information of process Id: 6548
+Failed to get information of process Id: 6712
+Failed to get information of process Id: 6760
+Failed to get information of process Id: 6784
+Failed to get information of process Id: 6820
+Failed to get information of process Id: 6864
+Failed to get information of process Id: 6616
+Failed to get information of process Id: 1840
+Failed to get information of process Id: 6640
+Failed to get information of process Id: 2804
+Failed to get information of process Id: 7368
+Failed to get information of process Id: 7516
+Failed to get information of process Id: 7732
+Failed to get information of process Id: 7760
+Failed to get information of process Id: 7768
+Failed to get information of process Id: 7868
+Failed to get information of process Id: 7944
+Failed to get information of process Id: 8008
+Failed to get information of process Id: 8180
+Failed to get information of process Id: 3004
+Failed to get information of process Id: 7928
+Failed to get information of process Id: 8484
+Failed to get information of process Id: 8540
+Failed to get information of process Id: 8960
+Failed to get information of process Id: 9068
+Failed to get information of process Id: 9208
+Failed to get information of process Id: 3544
+Failed to get information of process Id: 9392
+Failed to get information of process Id: 9688
+Failed to get information of process Id: 10116
+Failed to get information of process Id: 10252
+Failed to get information of process Id: 10448
+Failed to get information of process Id: 11596
+Failed to get information of process Id: 11668
+Failed to get information of process Id: 11700
+Failed to get information of process Id: 11784
+Failed to get information of process Id: 11836
+Failed to get information of process Id: 11868
+PROCESS 0x2ef0      magentproc.exe
+Failed to get information of process Id: 11316
+Failed to get information of process Id: 2908
+Failed to get information of process Id: 7720
+Failed to get information of process Id: 11236
+Failed to get information of process Id: 11052
+Failed to get information of process Id: 11124
+Failed to get information of process Id: 9096
+Failed to get information of process Id: 9552
+Failed to get information of process Id: 1316
+Failed to get information of process Id: 4696
+Failed to get information of process Id: 11456
+Failed to get information of process Id: 8036
+Failed to get information of process Id: 10356
+Failed to get information of process Id: 1140
+Failed to get information of process Id: 9112
+Failed to get information of process Id: 4304
+Failed to get information of process Id: 11712
+Failed to get information of process Id: 5228
+Failed to get information of process Id: 6984
+Failed to get information of process Id: 11848
+Failed to get information of process Id: 11604
+Failed to get information of process Id: 10164
+Failed to get information of process Id: 12036
+PROCESS 0x18b8      qq.exe
+PROCESS 0x2cd0      txplatform.exe
+Failed to get information of process Id: 2320
+Failed to get information of process Id: 7580
+Failed to get information of process Id: 2444
+Failed to get information of process Id: 8884
+Failed to get information of process Id: 8608
+Failed to get information of process Id: 6720
+Failed to get information of process Id: 7828
+Failed to get information of process Id: 1144
+Failed to get information of process Id: 9432
+Failed to get information of process Id: 3588
+Failed to get information of process Id: 4732
+Failed to get information of process Id: 9512
+PROCESS 0x7d0       vugen.exe
+Failed to get information of process Id: 3632
+Failed to get information of process Id: 11936
+Failed to get information of process Id: 10464
+Failed to get information of process Id: 4772
+Failed to get information of process Id: 2700
+Failed to get information of process Id: 11532
+Failed to get information of process Id: 8304
+PROCESS 0x1c18      qqexternal.exe
+		9.1.3.25332                   C:\Program Files (x86)\Tencent\QQ\Bin\QQExternal.exe
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\SYSTEM32\ntdll.dll
+		10.0.17763.592 (WinBuild.160101.0800)C:\Windows\System32\KERNEL32.DLL
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\System32\KERNELBASE.dll
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\SYSTEM32\apphelp.dll
+		10.0.17763.292 (WinBuild.160101.0800)C:\Windows\SYSTEM32\AcLayers.DLL
+		7.0.17763.475 (WinBuild.160101.0800)C:\Windows\System32\msvcrt.dll
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\System32\USER32.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\System32\win32u.dll
+		10.0.17763.592 (WinBuild.160101.0800)C:\Windows\System32\GDI32.dll
+		10.0.17763.615 (WinBuild.160101.0800)C:\Windows\System32\gdi32full.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\System32\msvcp_win.dll
+		10.0.17763.404 (WinBuild.160101.0800)C:\Windows\System32\ucrtbase.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\System32\SHELL32.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\System32\cfgmgr32.dll
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\System32\shcore.dll
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\System32\RPCRT4.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\System32\SspiCli.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\System32\CRYPTBASE.dll
+		10.0.17763.615 (WinBuild.160101.0800)C:\Windows\System32\bcryptPrimitives.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\System32\sechost.dll
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\System32\combase.dll
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\System32\windows.storage.dll
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\System32\advapi32.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\System32\profapi.dll
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\System32\powrprof.dll
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\System32\shlwapi.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\System32\kernel.appcore.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\System32\cryptsp.dll
+		10.0.17763.437 (WinBuild.160101.0800)C:\Windows\System32\OLEAUT32.dll
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\System32\SETUPAPI.dll
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\System32\bcrypt.dll
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\SYSTEM32\MPR.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\sfc.dll
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\SYSTEM32\WINSPOOL.DRV
+		7.0.17763.644 (WinBuild.160101.0800)C:\Windows\SYSTEM32\PROPSYS.dll
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\SYSTEM32\IPHLPAPI.DLL
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\sfc_os.DLL
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\System32\IMM32.DLL
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\System32\PSAPI.DLL
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\System32\ole32.dll
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\System32\WS2_32.dll
+		9.1.3.279                     C:\Program Files (x86)\Tencent\QQ\Bin\Common.dll
+		11.00.17763.644 (WinBuild.160101.0800)C:\Windows\SYSTEM32\WININET.dll
+		9.1.3.279                     C:\Program Files (x86)\Tencent\QQ\Bin\ProcessSession.DLL
+		9.1.3.279                     C:\Program Files (x86)\Tencent\QQ\Bin\AsyncTask.dll
+		14.15.26706.0 built by: VCTOOLSRELC:\Windows\SYSTEM32\MSVCP140.dll
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\System32\COMDLG32.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\NETAPI32.dll
+		10.0.17763.348 (WinBuild.160101.0800)C:\Windows\System32\WINTRUST.dll
+		14.15.26706.0 built by: VCTOOLSRELC:\Windows\SYSTEM32\VCRUNTIME140.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\System32\MSASN1.dll
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\System32\CRYPT32.dll
+		9.1.3.279                     C:\Program Files (x86)\Tencent\QQ\Bin\zlib.dll
+		9.1.3.279                     C:\Program Files (x86)\Tencent\QQ\Bin\libexpat.dll
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\SYSTEM32\WINHTTP.dll
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\SYSTEM32\WINMM.dll
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\SYSTEM32\AVICAP32.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\VERSION.dll
+		9.1.3.279                     C:\Program Files (x86)\Tencent\QQ\Bin\tinyxml.dll
+		9.1.3.279                     C:\Program Files (x86)\Tencent\QQ\Bin\arkFS.dll
+		1.0.0.4                       C:\Program Files (x86)\Tencent\QQ\Bin\LIBEAY32.dll
+		6.10 (WinBuild.160101.0800)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.615_none_4d6178211b9c4dda\COMCTL32.dll
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\SYSTEM32\RASAPI32.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\winmmbase.dll
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\SYSTEM32\MSVFW32.dll
+		10.00.40219.325               C:\Windows\SYSTEM32\MSVCR100.dll
+		9.1.3.279                     C:\Program Files (x86)\Tencent\QQ\Bin\arkIOStub.dll
+		9.1.3.279                     C:\Program Files (x86)\Tencent\QQ\Bin\sqlite.dll
+		10.0.17763.292 (WinBuild.160101.0800)C:\Windows\SYSTEM32\rasman.dll
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\system32\uxtheme.dll
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\system32\dwmapi.dll
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\SYSTEM32\DNSAPI.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\System32\NSI.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\atlthunk.dll
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\System32\MSCTF.dll
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\SYSTEM32\dhcpcsvc6.DLL
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\SYSTEM32\dhcpcsvc.DLL
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\system32\rsaenh.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\System32\imagehlp.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\WINNSI.DLL
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\SYSTEM32\gpapi.dll
+		9.1.3.25332                   C:\Program Files (x86)\Tencent\QQ\Bin\OPMiscDll.dll
+		9.1.3.279                     C:\Program Files (x86)\Tencent\QQ\Bin\RenderService.dll
+		9.1.3.279                     C:\Program Files (x86)\Tencent\QQ\Bin\GF.dll
+		9.1.3.279                     C:\Program Files (x86)\Tencent\QQ\Bin\arkGraphic.dll
+		9.1.3.279                     C:\Program Files (x86)\Tencent\QQ\Bin\xGraphic32.dll
+		9.1.3.279                     C:\Program Files (x86)\Tencent\QQ\Bin\arkImage.dll
+		9.1.3.279                     C:\Program Files (x86)\Tencent\QQ\Bin\arkIPC.dll
+		7.2.17763.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\OLEACC.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\USP10.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\MSIMG32.dll
+		14.15.26706.0 built by: VCTOOLSRELC:\Windows\SYSTEM32\VCOMP140.DLL
+		9.1.3.279                     C:\Program Files (x86)\Tencent\QQ\Bin\libpng.dll
+		1.3.1.0                       C:\Program Files (x86)\Tencent\QQ\Bin\libjpegturbo.dll
+		9.1.3.279                     C:\Program Files (x86)\Tencent\QQ\Bin\libimagequant.dll
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\system32\d2d1.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\d3d11.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\dxgi.dll
+		10.0.17763.348 (WinBuild.160101.0800)C:\Windows\SYSTEM32\D3D10Warp.dll
+		10.0.17763.644 (WinBuild.160101.0800)C:\Windows\system32\DWrite.dll

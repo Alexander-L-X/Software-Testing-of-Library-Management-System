@@ -1,0 +1,25 @@
+[t2]
+FileName2=t1_6_js.UNK
+FileName5=t1_3_bootstrap.UNK
+FileName4=t1_4_296494-106.jpe
+FileName7=t1_1_jquery-3.UNK
+FileName6=t1_2_bootstrap.css
+FileName8=t1_0_105905-106.jpe
+RequestBodyFile=t2_RequestBody.txt
+ContentType=text/html
+URL1=http://localhost:8080/favicon.ico
+URL2=http://localhost:8080/js/js.cookie.js
+URL3=http://localhost:8080/img/82839-106.jpg
+ResponseHeaderFile=t2_ResponseHeader.txt
+URL4=http://localhost:8080/img/296494-106.jpg
+URL5=http://localhost:8080/js/bootstrap.min.js
+URL6=http://localhost:8080/css/bootstrap.min.css
+URL7=http://localhost:8080/js/jquery-3.2.1.js
+URL8=http://localhost:8080/img/105905-106.jpg
+SnapshotXmlFile=snapshot_2.xml
+RequestHeaderFile=t2_RequestHeader.txt
+SaveSnapshotResources=1
+Total=8
+StepName=Url: favicon.ico
+FileName1=t2.html
+FileName3=t1_5_82839-106.jpe

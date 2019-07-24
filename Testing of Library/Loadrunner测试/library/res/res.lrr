@@ -1,0 +1,32 @@
+[Scenario]
+Product=HP LoadRunner Controller
+Version=12.0.0.0
+Path=Scenario1
+Subject=
+Result_file=C:\Users\dream\Documents\VuGen\Scripts\library\res\res.lrr
+Description=
+ResultName=res
+Time_Zone=-28800
+Start_time=1563684521
+Daylight_Bias=0
+Stop_time=1563684940
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+[Running_mode]
+Start_reason=按命令
+Stop_reason=按用户
+[Data Collection]
+FullData=1
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=计划 1
+Mode=场景计划
+Scenario Duration=启动 50 (个) Vuser: 每隔 00:00:15 (HH:MM:SS) 启动 5 个; 运行00:02:00 (HH:MM:SS); 停止 全部 (个) Vuser: 每 00:00:15 (HH:MM:SS) 停止 5 个
+Load Behavior=在每个 Vuser 运行之前将其初始化
+[Scripts]
+library=C:\Users\dream\Documents\VuGen\Scripts\library\library.usr
+[Scripts_types]
+library=Multi+QTWeb

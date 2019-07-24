@@ -1,0 +1,95 @@
+﻿[BasicInfo]
+Title=吞吐量 (MB)
+TemplateName=ThroughputMB
+ChartGroup=Web Server Resources
+PerformanceClass=Network
+
+[Graph Definitions]
+MainFactTableName=WebEvent_meter
+DefaultDisplayType=Line
+UserGranularity=1
+RoundBarValues=0
+GraphDataCol1=
+TableName=T52674753T
+BasicTableName=
+AbsoluteTime=0
+DisableFilter=0
+SetPieToPercent=0
+DescFromFID=0
+NumSelectStrings=1
+ProduceRealStatis=1
+CompleteMissingValuesWithZeroes=1
+CompleteMissingValues=0
+ForceCompleteValsOnArea=1
+IdsToStrs=1
+StdMonitor=0
+HiddenFunctions=
+NumBasicFilters=2
+NumAdditionalFilters=0
+NumRawDataFilters=0
+HiddenDimensions=
+BasicGroupBy=Web 服务器资源名
+AdditionalGroupBy=
+HasGranularity=1
+YLeftAxisTitle=MB/秒
+YRightAxisTitle=
+TimeBasedXAxis=1
+XBottomAxisTitle=已用场景时间 mm:ss
+XTopAxisTitle=
+DisplayAsStairs=0
+RawDataDimension=场景已用时间
+Scaling=0
+ZeroValue=0
+CompleteValFromLast=0
+Stacked=0
+BreakdownTree=0
+TransactionBreakdownGraph=0
+
+[SelectString0]
+Dimension=![Value]/1024/1024!
+CountField=![Acount]!
+AggregateFunction=SumG
+ResultSetAggregateFunction=Y Value
+Title=
+ActiveState=1
+
+[BasicFilter0]
+DimensionType=Discrete
+InternalDimName=
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_Map
+NumValues=1
+UseEscapeSequence=1
+DimCount=1
+Dim_0=Web
+LikeMode=0
+
+[BasicFilter1]
+DimensionType=Discrete
+InternalDimName=
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_Map
+NumValues=1
+UseEscapeSequence=1
+DimCount=1
+Dim_0=Throughput
+LikeMode=0
+
+[Filter Data]
+SingleValue=Throughput
+
+[DimensionFunctions]
+DimeFuncCount=0
+
+[Granularity]
+Dimension=场景已用时间
+TimeScaleType=2
+Granularity=8
+BaseGranularityUIName=吞吐量
+MinimumDefaultGranularity=5
+
+[Alerts]
+Number Of Alerts=0
+

@@ -1,0 +1,2 @@
+[Hosts]
+localhost=C:\Users\dream\Documents\VuGen\Scripts\library\res\localhost_1.eve

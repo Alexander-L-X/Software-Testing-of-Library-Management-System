@@ -1,0 +1,386 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE Report
+[
+<!ELEMENT Report (General ,(Doc|BPT)) >
+<!ATTLIST Report ver CDATA #REQUIRED tmZone CDATA #REQUIRED>
+
+<!ELEMENT General ( DocLocation ) >
+<!ATTLIST General productName CDATA #REQUIRED productVer CDATA #REQUIRED os CDATA #REQUIRED host CDATA #REQUIRED>
+
+<!ELEMENT BPT (DName,Res,DVer?,TSet?,TInst?,NodeArgs,AdditionalInfo*,Doc*) >
+<!ATTLIST BPT rID ID #REQUIRED >
+
+<!ELEMENT Doc (DName,Res,DVer?,TSet?,TInst?,RunType?,DT?,AdditionalInfo*,Step*,DIter*,Step*,Action*,Summary?,TestMaintenanceSummary*,NodeArgs?) >
+<!ATTLIST Doc rID ID #REQUIRED type (Test|BC) "Test" productName CDATA #REQUIRED BCIter CDATA #IMPLIED >
+
+<!ELEMENT RunType ( #PCDATA )>
+<!ATTLIST RunType fmStep (False|True) "False" batch (False|True) "False" upDesc (False|True) "False" upChk (False|True) "False" upAS (False|True) "False">
+
+<!ELEMENT DName ( #PCDATA ) >
+
+<!ELEMENT Res ( #PCDATA ) >
+
+<!ELEMENT AdditionalInfo (AdditionalDataName,AdditionalDataValue ) >
+
+<!ELEMENT AdditionalDataName ( #PCDATA ) >
+
+<!ELEMENT AdditionalDataValue ( #PCDATA ) >
+
+<!ELEMENT DVer ( #PCDATA ) >
+
+<!ELEMENT TSet ( #PCDATA ) >
+
+<!ELEMENT TInst ( #PCDATA ) >
+
+<!ELEMENT DIter (Step?,Action+,Summary?,NodeArgs)>
+<!ATTLIST DIter rID ID #REQUIRED iterID CDATA #REQUIRED>
+
+<!ELEMENT DocLocation ( #PCDATA )>
+
+<!ELEMENT Action (AName,AIter*,(Step|HtmlStep|Action)*,Summary,ActionMaintenanceSummary*,NodeArgs ) >
+<!ATTLIST Action rID ID #REQUIRED>
+
+<!ELEMENT AIter ((Step|HtmlStep|Action)*,Summary?,NodeArgs) >
+<!ATTLIST AIter rID ID #REQUIRED iterID CDATA #REQUIRED>
+
+<!ELEMENT AName ( #PCDATA ) >
+
+<!ELEMENT TestMaintenanceSummary (ActionMaintenanceSummary) >
+<!ATTLIST TestMaintenanceSummary ObjectsAdded CDATA #REQUIRED ObjectsUpdated CDATA #REQUIRED StepsUpdated CDATA #REQUIRED StepsComments CDATA #REQUIRED><!ELEMENT ActionMaintenanceSummary (ObjectChange* ) >
+<!ATTLIST ActionMaintenanceSummary Action CDATA #REQUIRED Objects CDATA #REQUIRED Updated CDATA #REQUIRED LinesTotal CDATA #REQUIRED Added CDATA #REQUIRED LinesUpdated CDATA #REQUIRED>
+
+<!ELEMENT ObjectChange  (Hierarchy, PropertyChangeList* ) >
+<!ATTLIST ObjectChange Operation CDATA #IMPLIED OriginalRepository CDATA #IMPLIED>
+
+<!ELEMENT PropertyChangeList (PropertyDef) >
+
+<!ELEMENT PropertyDef (OriginalValue, NewValue) >
+<!ATTLIST PropertyDef PropName CDATA #REQUIRED OriginRegularExpression (True|False) "False" NewRegularExpression (True|False) "False" >
+
+<!ELEMENT OriginalValue ( #PCDATA )>
+
+<!ELEMENT NewValue ( #PCDATA )>
+
+<!ELEMENT Hierarchy  (ObjectName, Hierarchy*) >
+<!ATTLIST Hierarchy MicClass CDATA #REQUIRED>
+
+<!ELEMENT ObjectName  ( #PCDATA ) >
+
+<!ELEMENT Step (Obj,Details,Time,(Step|HtmlStep|Doc)*,NodeArgs) >
+<!ATTLIST Step rID ID #REQUIRED retval CDATA #IMPLIED>
+
+<!ELEMENT HtmlStep (HTML,(Step|HtmlStep|Doc)*,NodeArgs) >
+<!ATTLIST HtmlStep rID ID #REQUIRED >
+
+<!ELEMENT Obj ( #PCDATA ) >
+<!ATTLIST Obj plainTxt (False|True) "True">
+
+<!ELEMENT Details ( #PCDATA ) >
+<!ATTLIST Details plainTxt (False|True) "True">
+
+<!ELEMENT Time ( #PCDATA ) >
+
+<!ELEMENT HTML ( #PCDATA ) >
+
+<!ELEMENT Disp ( #PCDATA ) >
+
+<!ELEMENT NodeArgs (Disp,TopPane?,BtmPane?)>
+<!ATTLIST NodeArgs eType CDATA #REQUIRED icon CDATA #REQUIRED nRep CDATA #REQUIRED filter (False|True) "True">
+<!ATTLIST NodeArgs status (Passed|Failed|Done|Warning|Information) "Done">
+<!ATTLIST NodeArgs iconSel CDATA #IMPLIED nType CDATA #IMPLIED MovieMarker CDATA "">
+
+<!ELEMENT TopPane (Path)>
+
+<!ELEMENT BtmPane ( (Path|WR)?,ASHilite?)>
+<!ATTLIST BtmPane vType CDATA "HTML">
+
+<!ELEMENT Path ( #PCDATA ) >
+
+<!ELEMENT ASHilite ( #PCDATA ) >
+
+<!ELEMENT WR ( #PCDATA ) >
+
+<!ELEMENT DT (NodeArgs) >
+<!ATTLIST DT rID ID #REQUIRED>
+
+<!ELEMENT Summary (Param*)>
+<!ATTLIST Summary sTime CDATA #IMPLIED eTime CDATA #IMPLIED passed CDATA #IMPLIED failed CDATA #IMPLIED warnings CDATA #IMPLIED retval CDATA #IMPLIED stopped (False|True) "False" >
+
+<!ELEMENT Param (ParamName,ParamVal)+ >
+<!ATTLIST Param paramInOut (In|Out) "In">
+
+<!ELEMENT ParamName ( #PCDATA ) >
+
+<!ELEMENT ParamVal ( #PCDATA ) >
+
+]
+>
+<Report ver="2.0" tmZone="中国标准时间">
+<General productName="Vugen" productVer="12" os="" host="DESKTOP-7M0B4RA"><DocLocation><![CDATA[C:\Users\dream\Documents\VuGen\Scripts\library]]></DocLocation></General>
+<Doc rID="T1"   productName= "Vugen"  >
+<DName><![CDATA[library]]></DName>
+<Res><![CDATA[result1]]></Res>
+<Action rID="T2">
+<AName><![CDATA[vuser_init]]></AName>
+<Summary sTime="2019/7/21 - 12:47:13" eTime="2019/7/21 - 12:47:13" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="5" >
+<Disp><![CDATA[vuser_init 概要]]></Disp>
+</NodeArgs>
+</Action>
+<DIter rID="T3" iterID="1" >
+<Action rID="T4">
+<AName><![CDATA[Action]]></AName>
+<Step rID="T5">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>添加以下 Cookie: <STRONG><FONT COLOR=#00AF00>Idea-31757f28=f3615b8e-e2a2-43d0-a7e3-da86b7744875; DOMAIN=localhost</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/7/21 - 12:47:13]]></Time>
+<NodeArgs eType="General" icon="4" nRep="9" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T6">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>将以下标头添加到所有后续 HTTP 请求: <BR><STRONG><FONT COLOR=#00AF00>Accept: text/html, application/xhtml+xml, image/jxr, */*</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/7/21 - 12:47:13]]></Time>
+<NodeArgs eType="General" icon="5" nRep="10" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T7">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>将以下标头添加到所有后续 HTTP 请求: <BR><STRONG><FONT COLOR=#00AF00>Accept-Encoding: gzip, deflate</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/7/21 - 12:47:13]]></Time>
+<NodeArgs eType="General" icon="5" nRep="11" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T8">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>将以下标头添加到下一个 HTTP 请求: <BR><STRONG><FONT COLOR=#00AF00>Accept-Language: zh-Hans-CN,zh-Hans;q=0.5</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/7/21 - 12:47:13]]></Time>
+<NodeArgs eType="General" icon="6" nRep="12" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T9">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>将以下标头添加到所有后续 HTTP 请求: <BR><STRONG><FONT COLOR=#00AF00>UA-CPU: AMD64</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/7/21 - 12:47:13]]></Time>
+<NodeArgs eType="General" icon="5" nRep="13" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T10">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>将以下标头添加到所有后续 HTTP 请求: <BR><STRONG><FONT COLOR=#00AF00>User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; Trident/7.0; rv:11.0) like Gecko</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/7/21 - 12:47:13]]></Time>
+<NodeArgs eType="General" icon="5" nRep="14" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T11">
+<Obj plainTxt="False" ><![CDATA[Url: localhost:8080]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>步骤已成功完成</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/7/21 - 12:47:13]]></Time>
+<NodeArgs eType="General" icon="7" nRep="15" status="Passed" >
+<Disp><![CDATA[Url: localhost:8080]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t1.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T12">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>将以下标头添加到所有后续 HTTP 请求: <BR><STRONG><FONT COLOR=#00AF00>Accept: */*</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/7/21 - 12:47:13]]></Time>
+<NodeArgs eType="General" icon="5" nRep="16" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T13">
+<Obj plainTxt="False" ><![CDATA[Url: favicon.ico]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>步骤已成功完成</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/7/21 - 12:47:13]]></Time>
+<NodeArgs eType="General" icon="7" nRep="17" status="Passed" >
+<Disp><![CDATA[Url: favicon.ico]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t2.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T14">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>将以下标头添加到所有后续 HTTP 请求: <BR><STRONG><FONT COLOR=#00AF00>Accept: application/json, text/javascript, */*; q=0.01</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/7/21 - 12:47:13]]></Time>
+<NodeArgs eType="General" icon="5" nRep="18" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T15">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>将以下标头添加到所有后续 HTTP 请求: <BR><STRONG><FONT COLOR=#00AF00>Accept-Language: zh-Hans-CN,zh-Hans;q=0.5</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/7/21 - 12:47:13]]></Time>
+<NodeArgs eType="General" icon="5" nRep="19" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T16">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>将以下标头添加到下一个 HTTP 请求: <BR><STRONG><FONT COLOR=#00AF00>Cache-Control: no-cache</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/7/21 - 12:47:13]]></Time>
+<NodeArgs eType="General" icon="6" nRep="20" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T17">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>将以下标头添加到下一个 HTTP 请求: <BR><STRONG><FONT COLOR=#00AF00>X-Requested-With: XMLHttpRequest</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/7/21 - 12:47:13]]></Time>
+<NodeArgs eType="General" icon="6" nRep="21" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T18">
+<Obj plainTxt="False" ><![CDATA[Submit Data: loginCheck]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>内容类型 ""DummyContentType"" 的资源已成功加载</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/7/21 - 12:47:13]]></Time>
+<NodeArgs eType="General" icon="8" nRep="22" status="Passed" >
+<Disp><![CDATA[Submit Data: loginCheck]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T19">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>将以下标头添加到所有后续 HTTP 请求: <BR><STRONG><FONT COLOR=#00AF00>Accept: text/html, application/xhtml+xml, image/jxr, */*</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/7/21 - 12:47:13]]></Time>
+<NodeArgs eType="General" icon="5" nRep="23" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T20">
+<Obj plainTxt="False" ><![CDATA[Url: admin_main.html]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>步骤已成功完成</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/7/21 - 12:47:13]]></Time>
+<NodeArgs eType="General" icon="7" nRep="24" status="Passed" >
+<Disp><![CDATA[Url: admin_main.html]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t4.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T21">
+<Obj plainTxt="False" ><![CDATA[Service: Remove/Revert Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>移除/恢复 <BR><STRONG><FONT COLOR=#00AF00>Accept-Language</FONT></STRONG> 标头，隐式生成: <STRONG>Yes</STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/7/21 - 12:47:13]]></Time>
+<NodeArgs eType="General" icon="9" nRep="25" >
+<Disp><![CDATA[Service: Remove/Revert Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T22">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>将以下标头添加到所有后续 HTTP 请求: <BR><STRONG><FONT COLOR=#00AF00>Accept: */*</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/7/21 - 12:47:13]]></Time>
+<NodeArgs eType="General" icon="5" nRep="26" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T23">
+<Obj plainTxt="False" ><![CDATA[Url: favicon.ico_2]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>步骤已成功完成</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/7/21 - 12:47:13]]></Time>
+<NodeArgs eType="General" icon="7" nRep="27" status="Passed" >
+<Disp><![CDATA[Url: favicon.ico_2]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t5.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T24">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>将以下标头添加到所有后续 HTTP 请求: <BR><STRONG><FONT COLOR=#00AF00>Accept: text/html, application/xhtml+xml, image/jxr, */*</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/7/21 - 12:47:13]]></Time>
+<NodeArgs eType="General" icon="5" nRep="28" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T25">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>将以下标头添加到所有后续 HTTP 请求: <BR><STRONG><FONT COLOR=#00AF00>Accept-Language: zh-Hans-CN,zh-Hans;q=0.5</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/7/21 - 12:47:13]]></Time>
+<NodeArgs eType="General" icon="5" nRep="29" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T26">
+<Obj plainTxt="False" ><![CDATA[Url: book_add.html]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>步骤已成功完成</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/7/21 - 12:47:13]]></Time>
+<NodeArgs eType="General" icon="7" nRep="30" status="Passed" >
+<Disp><![CDATA[Url: book_add.html]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t6.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T27">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>将以下标头添加到下一个 HTTP 请求: <BR><STRONG><FONT COLOR=#00AF00>Cache-Control: no-cache</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/7/21 - 12:47:13]]></Time>
+<NodeArgs eType="General" icon="6" nRep="31" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T28">
+<Obj plainTxt="False" ><![CDATA[Submit Form: book_add_do.html]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>步骤已成功完成</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/7/21 - 12:47:13]]></Time>
+<NodeArgs eType="General" icon="10" nRep="32" status="Passed" >
+<Disp><![CDATA[Submit Form: book_add_do.html]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t7.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T29">
+<Obj plainTxt="False" ><![CDATA[Link: 璇︽儏]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>步骤已成功完成</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/7/21 - 12:47:14]]></Time>
+<NodeArgs eType="General" icon="11" nRep="33" status="Passed" >
+<Disp><![CDATA[Link: 璇︽儏]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t8.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T30">
+<Obj plainTxt="False" ><![CDATA[Link: 鍥句功绠＄悊绯荤粺]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>步骤已成功完成</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2019/7/21 - 12:47:14]]></Time>
+<NodeArgs eType="General" icon="11" nRep="34" status="Passed" >
+<Disp><![CDATA[Link: 鍥句功绠＄悊绯荤粺]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t9.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Summary sTime="2019/7/21 - 12:47:13" eTime="2019/7/21 - 12:47:14" passed="9" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
+<Disp><![CDATA[Action 概要]]></Disp>
+</NodeArgs>
+</Action>
+<NodeArgs eType="StartIteration" icon="3" nRep="7" status="Passed" >
+<Disp><![CDATA[library 迭代 1 (行 1)]]></Disp>
+</NodeArgs>
+</DIter>
+<Action rID="T31">
+<AName><![CDATA[vuser_end]]></AName>
+<Summary sTime="2019/7/21 - 12:47:14" eTime="2019/7/21 - 12:47:14" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="37" >
+<Disp><![CDATA[vuser_end 概要]]></Disp>
+</NodeArgs>
+</Action>
+<Summary sTime="2019/7/21 - 12:47:13" eTime="2019/7/21 - 12:47:14" passed="9" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
+<Disp><![CDATA[测试 library 概要]]></Disp>
+</NodeArgs>
+</Doc>
+</Report>

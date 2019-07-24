@@ -1,0 +1,233 @@
+[API Trapper      (16e4:14a4)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\iexplore.exe
+[API Trapper      (2d0c: d78)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer (2d0c:2cb4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2d0c:2cb4)] Load Network Traffic Analyzers:
+[Network Analyzer (2d0c:2cb4)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2d0c:2cb4)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (2d0c:2cb4)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2d0c:2cb4)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (2d0c:2cb4)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (2d0c:2cb4)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2d0c:2cb4)]     Analyzer Module: local_server (value=)
+[Network Analyzer (2d0c:2cb4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2d0c:2bc4)] Address lookup for DESKTOP-7M0B4RA = 192.168.153.1
+[Net An. Warning  (2d0c:2cb4)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 8080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2d0c:2cb4)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 8080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2d0c:2cb4)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 8080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (2d0c:2cb4)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 8080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (2d0c:21dc)] Address lookup for DESKTOP-7M0B4RA = 192.168.153.1
+[Network Analyzer (2d0c:21dc)] Request Connection: Remote Server @ 127.0.0.1:8080   (Service=)  (Sid=  1)  PROXIED!
+[Net An. Warning  (2d0c:2cb4)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 8080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      (2d0c:2bc4)] "GET /"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Client -> Server @ : 360 bytes (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 11809 bytes  (Service=HTTP)
+[Web Request      (2d0c:2bc4)] "GET /css/bootstrap.min.css"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Client -> Server @ : 432 bytes (Service=HTTP)
+[Network Analyzer (2d0c:2bb0)] Address lookup for DESKTOP-7M0B4RA = 192.168.153.1
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bb0)] Request Connection: Remote Server @ 127.0.0.1:8080   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (2d0c:2bc4)] "GET /img/82839-106.jpg"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Client -> Server @ : 476 bytes (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 6717 bytes  (Service=HTTP)
+[Web Request      (2d0c:2bc4)] "GET /js/jquery-3.2.1.js"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Client -> Server @ : 449 bytes (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 6114 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (2d0c:2bc4)] "GET /js/bootstrap.min.js"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Client -> Server @ : 450 bytes (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 4495 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (2d0c:2bc4)] "GET /js/js.cookie.js"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Client -> Server @ : 446 bytes (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 4089 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 3890 bytes  (Service=HTTP)
+[Web Request      (2d0c:2bc4)] "GET /img/296494-106.jpg"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Client -> Server @ : 477 bytes (Service=HTTP)
+[Web Request      (2d0c:2bc4)] "GET /img/105905-106.jpg"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Client -> Server @ : 477 bytes (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Server -> Client : 8682 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 13329 bytes  (Service=HTTP)
+[Web Request      (2d0c:2bc4)] "GET /favicon.ico"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Client -> Server @ : 336 bytes (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 4063 bytes  (Service=HTTP)
+[Net An. Warning  (2d0c:2cb4)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 8080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2d0c:2cb4)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 8080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (2d0c:2cb4)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 8080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (2d0c:2cb4)] Address lookup for DESKTOP-7M0B4RA = 192.168.153.1
+[Network Analyzer (2d0c:2cb4)] Request Connection: Remote Server @ 127.0.0.1:8080   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (2d0c:2694)] Address lookup for DESKTOP-7M0B4RA = 192.168.153.1
+[Network Analyzer (2d0c:2694)] Request Connection: Remote Server @ 127.0.0.1:8080   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (2d0c:2cb4)] Address lookup for DESKTOP-7M0B4RA = 192.168.153.1
+[Network Analyzer (2d0c:2cb4)] Request Connection: Remote Server @ 127.0.0.1:8080   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (2d0c:2cb4)] Address lookup for DESKTOP-7M0B4RA = 192.168.153.1
+[Network Analyzer (2d0c:2cb4)] Request Connection: Remote Server @ 127.0.0.1:8080   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (2d0c:2cb4)] Address lookup for DESKTOP-7M0B4RA = 192.168.153.1
+[Network Analyzer (2d0c:2cb4)] Request Connection: Remote Server @ 127.0.0.1:8080   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Client -> Server @ : 602 bytes (Service=HTTP)
+[Web Request      (2d0c:2bc4)] "POST /api/loginCheck"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Client -> Server @ : 25 bytes (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 217 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 7 bytes  (Service=HTTP)
+[Web Request      (2d0c:2bc4)] "GET /admin_main.html"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Client -> Server @ : 461 bytes (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 4051 bytes  (Service=HTTP)
+[Web Request      (2d0c:2bc4)] "GET /img/281289-106.jpg"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Client -> Server @ : 492 bytes (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 8023 bytes  (Service=HTTP)
+[Web Request      (2d0c:2bc4)] "GET /fonts/glyphicons-halflings-regular.eot?"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Client -> Server @ : 486 bytes (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 566 bytes  (Service=HTTP)
+[Web Request      (2d0c:2bc4)] "GET /fonts/glyphicons-halflings-regular.woff"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Client -> Server @ : 486 bytes (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 567 bytes  (Service=HTTP)
+[Web Request      (2d0c:2bc4)] "GET /fonts/glyphicons-halflings-regular.ttf"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Client -> Server @ : 485 bytes (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 566 bytes  (Service=HTTP)
+[Web Request      (2d0c:2bc4)] "GET /favicon.ico"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Client -> Server @ : 336 bytes (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 4063 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  7) Connection Terminated (by Client)
+[Web Request      (2d0c:2bc4)] "GET /book_add.html"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Client -> Server @ : 474 bytes (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 6548 bytes  (Service=HTTP)
+[Web Request      (2d0c:2bc4)] "GET /fonts/glyphicons-halflings-regular.eot?"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Client -> Server @ : 484 bytes (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 566 bytes  (Service=HTTP)
+[Web Request      (2d0c:2bc4)] "GET /fonts/glyphicons-halflings-regular.woff"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Client -> Server @ : 484 bytes (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 567 bytes  (Service=HTTP)
+[Web Request      (2d0c:2bc4)] "GET /fonts/glyphicons-halflings-regular.ttf"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Client -> Server @ : 483 bytes (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 566 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  1) Connection Terminated (by Client)
+[Web Request      (2d0c:2bc4)] "POST /book_add_do.html"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Client -> Server @ : 685 bytes (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 188 bytes  (Service=HTTP)
+[Web Request      (2d0c:2bc4)] "GET /allbooks.html"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Client -> Server @ : 497 bytes (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 2827 bytes  (Service=HTTP)
+[Web Request      (2d0c:2bc4)] "GET /fonts/glyphicons-halflings-regular.eot?"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Client -> Server @ : 484 bytes (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 566 bytes  (Service=HTTP)
+[Web Request      (2d0c:2bc4)] "GET /fonts/glyphicons-halflings-regular.woff"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Client -> Server @ : 484 bytes (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 567 bytes  (Service=HTTP)
+[Web Request      (2d0c:2bc4)] "GET /fonts/glyphicons-halflings-regular.ttf"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Client -> Server @ : 483 bytes (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 566 bytes  (Service=HTTP)
+[Web Request      (2d0c:2bc4)] "GET /bookdetail.html?bookId=50009805"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Client -> Server @ : 490 bytes (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 4589 bytes  (Service=HTTP)
+[Web Request      (2d0c:2bc4)] "GET /fonts/glyphicons-halflings-regular.eot?"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Client -> Server @ : 502 bytes (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 566 bytes  (Service=HTTP)
+[Web Request      (2d0c:2bc4)] "GET /fonts/glyphicons-halflings-regular.woff"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Client -> Server @ : 502 bytes (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 567 bytes  (Service=HTTP)
+[Web Request      (2d0c:2bc4)] "GET /fonts/glyphicons-halflings-regular.ttf"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Client -> Server @ : 501 bytes (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 566 bytes  (Service=HTTP)
+[Web Request      (2d0c:2bc4)] "GET /admin_main.html"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Client -> Server @ : 492 bytes (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 4051 bytes  (Service=HTTP)
+[Web Request      (2d0c:2bc4)] "GET /fonts/glyphicons-halflings-regular.eot?"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Client -> Server @ : 486 bytes (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 566 bytes  (Service=HTTP)
+[Web Request      (2d0c:2bc4)] "GET /fonts/glyphicons-halflings-regular.woff"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Client -> Server @ : 486 bytes (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 567 bytes  (Service=HTTP)
+[Web Request      (2d0c:2bc4)] "GET /fonts/glyphicons-halflings-regular.ttf"   
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Client -> Server @ : 485 bytes (Service=HTTP)
+[Network Analyzer (2d0c:2bc4)]   (Sid:  2) Server -> Client : 566 bytes  (Service=HTTP)

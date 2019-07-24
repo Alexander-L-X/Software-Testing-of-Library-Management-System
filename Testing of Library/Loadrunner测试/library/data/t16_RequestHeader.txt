@@ -1,0 +1,11 @@
+GET /admin_main.html HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: http://localhost:8080/bookdetail.html?bookId=50009805
+Accept-Language: zh-Hans-CN,zh-Hans;q=0.5
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+UA-CPU: AMD64
+Accept-Encoding: gzip, deflate
+Host: localhost:8080
+Connection: Keep-Alive
+Cookie: Idea-31757f28=f3615b8e-e2a2-43d0-a7e3-da86b7744875; JSESSIONID=node011cxe2d7jhfs417s8cz152gwem977.node0
+

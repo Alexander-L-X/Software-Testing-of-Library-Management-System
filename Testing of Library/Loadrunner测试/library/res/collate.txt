@@ -1,0 +1,5 @@
+[Diagnostics]
+Status=-1
+[Collate Recovery]
+Scenario=C:\Users\dream\Desktop\library.lrs
+Completed=0

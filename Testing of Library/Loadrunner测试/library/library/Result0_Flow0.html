@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:FlowNS="http://schemas.microsoft.com/clr/nsassem/FlowObservation/Analysis.FlowUI" xmlns:ObservationsNS="http://schemas.microsoft.com/clr/nsassem/FlowObservations/Analysis.FlowUI" xmlns:FlowDocumentNS="http://schemas.microsoft.com/clr/nsassem/FlowDocument/Analysis.FlowUI" xmlns:FlowFindingsNS="http://schemas.microsoft.com/clr/nsassem/FlowFindings/Analysis.FlowUI" xmlns:FlowInputsNS="http://schemas.microsoft.com/clr/nsassem/FlowAnalysisInputs/Analysis.FlowUI" xmlns:FlowSettingsNS="http://schemas.microsoft.com/clr/nsassem/FlowSettings/Analysis.Business" xmlns:ErrorsNS="http://schemas.microsoft.com/clr/nsassem/ScenarioSummaryErrors/Analysis.Business" xmlns:ErrorNS="http://schemas.microsoft.com/clr/nsassem/ScenarioSummaryError/Analysis.Business" xmlns:SingleErrorNS="http://schemas.microsoft.com/clr/nsassem/ScenarioError/Analysis.Business" xmlns:AUTErrorsNS="http://schemas.microsoft.com/clr/nsassem/AUTSummaryErrors/Analysis.Business" xmlns:AUTErrorNS="http://schemas.microsoft.com/clr/nsassem/AUTSummaryError/Analysis.Business" xmlns:SingleAUTErrorNS="http://schemas.microsoft.com/clr/nsassem/AUTError/Analysis.Business" xmlns:LegendItemNS="http://schemas.microsoft.com/clr/nsassem/FlowLegendItem/Analysis.FlowUI" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0">
+  <head>
+    <link href="AnalysisWord_Properties.css" rel="stylesheet" type="text/css" media="screen,print" />
+    <link href="AnalysisGeneral_Properties.css" rel="stylesheet" type="text/css" media="screen" />
+    <script type="text/javascript" src="JSFunctions.js">
+    </script>
+    <style text="text/css" media="screen">.750Width400HeightClass { width: 750px; height: 400px; overflow: auto }</style>
+    <style text="text/css" media="print">.750Width400HeightClass { width: 750px; }</style>
+  </head>
+  <body class="main" bgcolor="#ffffff" topmargin="0" oncontextmenu="javascript: window.navigate('ShowContextMenu'); return false;" onload="setObservationsDivMaxHeight(document.getElementById('ObservationsDiv'))">
+    <table style="background-color: #ffffff;" cols="2" width="750" border="0" borderColorDark="black" cellPadding="0" cellSpacing="0" borderColor="black">
+      <tr>
+        <td class="sp_10px_row" colspan="9">
+        </td>
+      </tr>
+    </table>
+    <table style=" background-color: #ffffff; border-collapse: collapse;" cols="2" height="20" border="0" borderColorDark="black" cellPadding="0" borderColor="black" class="750WidthClass">
+      <tr>
+        <td colspan="2" class="header_page">Action_Transaction事务分析</td>
+        <td colspan="7" class="header_timerange">已分析周期:000:00:48 - 000:03:36</td>
+      </tr>
+    </table>
+    <br />
+    <table height="20" class="750WidthClass">
+      <tr height="5" valign="top">
+        <td class="text_em">事务名:</td>
+        <td headers="" class="VerBl8">Action_Transaction</td>
+      </tr>
+      <tr valign="top">
+        <td class="text_em">事务持续时间:</td>
+        <td headers="" class="VerBl8">000:00:48 - 000:06:59</td>
+      </tr>
+      <tr valign="top">
+        <td class="text_em">筛选器:</td>
+        <td headers="" class="VerBl8">(未 包括思考时间)</td>
+      </tr>
+    </table>
+    <br />
+    <div id="AbortedPlaceHolder">
+    </div>
+    <br />
+    <div id="ObservationsPlaceHolder">
+      <table style=" border-collapse: collapse;" cols="1" height="22" border="0" cellPadding="0" class="750WidthClass">
+        <tr>
+          <td class="header_second">观察</td>
+        </tr>
+      </table>
+      <br />
+      <table style=" border-collapse: collapse;" cols="1" height="22" border="0" cellPadding="0" class="750WidthClass">
+        <tr>
+          <td class="text_em">显示与以下参数关联的度量， Action_Transaction 最低关联百分比为:</td>
+          <td headers="" class="VerBl8">
+            <table cellSpacing="1" cellPadding="1">
+              <tr>
+                <td>
+                  <input id="txtNum" type="text" style="width:30px; height: 22px;" onkeypress="IsNumeric(event)" onblur="ValidateRange(document.getElementById('txtNum'), 0, 100)" value="20">
+                  </input>
+                </td>
+                <td>%</td>
+                <td>
+                  <img border="1" src="tbic_up.png" onClick="increment(document.getElementById('txtNum'), 1, 0, 100)" valign="bottom" style="cursor:hand" />
+                  <img border="1" src="tbic_down.png" onClick="increment(document.getElementById('txtNum'), -1, 0, 100)" valign="top" style="cursor:hand" />
+                </td>
+              </tr>
+            </table>
+            <td width="40">
+            </td>
+            <td>
+              <a href="do:RegenerateReport" title="重新生成报告">重新计算</a>
+            </td>
+          </td>
+        </tr>
+      </table>
+      <div id="ObservationsDiv" class="750Width400HeightClass">
+        <div class="750WidthClassScroll">
+          <table class="750WidthClassScroll" border="0" cellspacing="0" cellpadding="0" id="ObservationsTable" style="table-layout:fixed">
+            <tr>
+              <td id="LraTime Interval" class="table_header" vAlign="top" width="150">Vusers</td>
+            </tr>
+            <tr>
+              <td>
+                <table style=" border-collapse: collapse;" border="0" cellPadding="0">
+                  <tr onclick="markRow(document.getElementById('ObservationsTable'))" ObservationGuid="80a0227442a84b5b8448cf8a71bad6a5" class="tabledata_lightrow">
+                    <td class="750WidthClassScroll">57.68% 负 以下参数无关 <span style="color:blue">Run</span>
+								(运行 Vuser)
+							</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <br />
+      </div>
+      <br />
+      <table class="750WidthClass" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td align="right">
+            <a href="#" onclick="return openObservation(document.getElementById('ObservationsTable'))">
+              <img border="0" alt="单击以在新图表中比较两个度量。" src="open_graph_in_full_view.bmp">
+              </img>查看图</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <br />
+    <table style=" border-collapse: collapse;" cols="1" height="22" border="0" cellPadding="0" class="750WidthClass">
+      <tr>
+        <td class="header_second">错误</td>
+      </tr>
+    </table>
+    <br />
+    <div id="AUTErrorsPlaceHolder">
+      <table style=" border-collapse: collapse;" cols="1" height="12" border="0" cellPadding="0" class="750WidthClass">
+        <tr>
+          <td class="text_em">接受测试的应用程序错误数</td>
+        </tr>
+      </table>
+      <br />
+      <table style=" border-collapse: collapse;" border="0" cellPadding="0" class="750WidthClass">
+        <tr bgcolor="330066">
+          <td class="table_header" vAlign="top">
+            <span class="Verdana2">
+            </span>
+          </td>
+          <td class="table_header" vAlign="top">
+            <span class="Verdana2">错误类型</span>
+          </td>
+          <td class="table_header" vAlign="top">
+            <span class="Verdana2">错误代码</span>
+          </td>
+          <td class="table_header" vAlign="top">
+            <span class="Verdana2">错误模板</span>
+          </td>
+          <td class="table_header" vAlign="top">
+            <span class="Verdana2">消息总数</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="tabledata_end" headers="" colspan="9">
+            <img src="dot_trans.gif" alt="" height="1" width="1" border="0" />
+          </td>
+        </tr>
+      </table>
+    </div>
+    <br />
+    <div id="ErrorsPlaceHolder">
+      <table style=" border-collapse: collapse;" cols="1" height="12" border="0" cellPadding="0" class="750WidthClass">
+        <tr>
+          <td class="text_em">所有错误</td>
+        </tr>
+      </table>
+      <br />
+      <table style=" border-collapse: collapse;" border="0" cellPadding="0" class="750WidthClass">
+        <tr bgcolor="330066">
+          <td class="table_header" vAlign="top">
+            <span class="Verdana2">
+            </span>
+          </td>
+          <td class="table_header" vAlign="top">
+            <span class="Verdana2">错误类型</span>
+          </td>
+          <td class="table_header" vAlign="top">
+            <span class="Verdana2">错误代码</span>
+          </td>
+          <td class="table_header" vAlign="top">
+            <span class="Verdana2">错误模板</span>
+          </td>
+          <td class="table_header" vAlign="top">
+            <span class="Verdana2">消息总数</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="tabledata_end" headers="" colspan="9">
+            <img src="dot_trans.gif" alt="" height="1" width="1" border="0" />
+          </td>
+        </tr>
+      </table>
+    </div>
+    <br />
+    <br />
+    <table style=" border-collapse: collapse;" cols="1" height="22" border="0" cellPadding="0" class="750WidthClass">
+      <tr>
+        <td class="header_second">观察设置</td>
+      </tr>
+    </table>
+    <br />
+    <table height="20" class="750WidthClass">
+      <tr valign="top">
+        <td class="text_em">关联图:</td>
+        <td headers="" class="VerBl8" width="550">运行 Vuser,每秒错误数 (按描述),每秒错误数,每秒点击次数,吞吐量,每秒下载页数,连接,每秒连接数,Windows 资源,UNIX 资源,SNMP 资源,SiteScope,网络延迟时间,DB2,Oracle,SQL Server,服务器资源,Sybase</td>
+      </tr>
+    </table>
+    <table height="20" class="750WidthClass">
+      <tr>
+        <td class="text_em">报告将显示与不充分数据的关联。</td>
+      </tr>
+      <tr>
+        <td class="text_em">报告将显示错误信息。</td>
+      </tr>
+    </table>
+    <br />
+    <table style=" border-collapse: collapse;" cols="1" height="22" border="0" cellPadding="0" class="750WidthClass">
+      <tr>
+        <td class="header_second">图</td>
+      </tr>
+    </table>
+    <br />
+    <table summary="" class="750WidthClass">
+      <tr height="5">
+        <td>选定事务和时间范围的快照。<br /></td>
+      </tr>
+    </table>
+    <table class="750WidthClass">
+      <tr>
+        <td>
+          <img alt="所选图表的图像。" src="Result0_Flow0.png">
+          </img>
+        </td>
+        <td>
+          <table style="margin-left: 0; background-color: ffffff; border-collapse: collapse;" border="0" cellpadding="5">
+            <tr height="8">
+              <td width="10">
+                <img src="legend1.png">
+                </img>
+              </td>
+              <td width="3">
+              </td>
+              <td width="150">
+                <span class="Verdana2">Action_Transaction</span>
+              </td>
+            </tr>
+            <tr height="5">
+              <td>
+              </td>
+            </tr>
+            <tr height="8">
+              <td width="10">
+                <img src="legend2.png">
+                </img>
+              </td>
+              <td width="3">
+              </td>
+              <td width="150">
+                <span class="Verdana2">预期的 SLA</span>
+              </td>
+            </tr>
+            <tr height="5">
+              <td>
+              </td>
+            </tr>
+            <tr height="8">
+              <td width="10">
+                <img src="legend3.png">
+                </img>
+              </td>
+              <td width="3">
+              </td>
+              <td width="150">
+                <span class="Verdana2">运行 Vuser</span>
+              </td>
+            </tr>
+            <tr height="5">
+              <td>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

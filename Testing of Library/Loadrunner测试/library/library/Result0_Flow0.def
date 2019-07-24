@@ -1,0 +1,20 @@
+﻿[BasicInfo]
+Title=Action_Transaction, 2019/7/21 14:11
+Transaction=Action_Transaction
+TimeRangeMin=48.000000
+TimeRangeMax=216.000000
+NumFilters=0
+CorrelatedCharts=VuserStateGraph,ErrorsPerSecondByMessage,ErrorsPerSecond,HitsperSecond,Throughput,PageViewPersec,Connections,ConnectionsPerSecond,WindowsResources,UnixResources,ServerResources,SNMP,SiteScope,NetworkMonitorGraph,DB2,Oracle,SQLserver,Sybase
+
+[DimensionFunctions]
+DimeFuncCount=1
+DimeFuncType0=FuncFragment
+FunctionName_UI0=思考时间
+DimensionName_UI0=事务响应时间,Aminimum,Amaximum
+FunctionFragmentValues_UI0=-包括思考时间
+DimensionFragmentValues_UI0=!([Value]-[Think Time])!
+
+[TabSheet]
+Visible=1
+ActivePage=0
+
